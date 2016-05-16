@@ -1,0 +1,19 @@
+{
+  "name": "dannehl/model-helper",
+  "authors": [
+    {
+      "name": "dannehl",
+      "email": "dev@dannehl.net"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "illuminate/support": "5.0.*|5.1.*|5.2.*",
+    "hashids/hashids": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dannehl\\ModelHelper\\": "src/Dannehl/ModelHelper/"
+    }
+  }
+}
